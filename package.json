@@ -1,0 +1,23 @@
+{
+  "name": "turbo-no-vcs-repro",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+      "./workspaces/ws-1",
+      "./workspaces/ws-2"
+  ],
+  "devDependencies": {
+      "typescript": "^4.*",
+      "turbo": "1.2.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

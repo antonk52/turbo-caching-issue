@@ -1,0 +1,4 @@
+node_modules
+workspaces/*/node_modules
+workspaces/*/dist
+workspaces/*/.turbo
